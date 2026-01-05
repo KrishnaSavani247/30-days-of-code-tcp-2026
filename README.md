@@ -7,3 +7,4 @@ krishna
 <img width="1920" height="1080" alt="Screenshot 2026-01-03 110838" src="https://github.com/user-attachments/assets/5165519a-966b-44c0-bd05-053e14892e96" />
 <img width="1920" height="1080" alt="Screenshot 2026-01-03 110855" src="https://github.com/user-attachments/assets/9653c704-775f-4479-bdac-694f68e451d3" />
 <img width="1920" height="1080" alt="Screenshot 2026-01-04 210012" src="https://github.com/user-attachments/assets/7deab1b5-a82b-44da-9ae5-b22bc1366aeb" />
+<img width="1920" height="1080" alt="Screenshot 2026-01-05 235711" src="https://github.com/user-attachments/assets/08753b5e-aef1-4403-b24c-1e4621d3e640" />
