@@ -1,0 +1,144 @@
+/* Variables */
+:root {
+  --primary-color: #0066ff;
+  --light-bg: #f9f9f9;
+  --card-bg: #fff;
+  --text-color: #333;
+  --hover-shadow: rgba(0,0,0,0.15);
+  --transition: 0.3s ease;
+}
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--light-bg);
+  color: var(--text-color);
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: var(--card-bg);
+  position: sticky;
+  top: 0;
+}
+
+.nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: var(--text-color);
+  transition: var(--transition);
+}
+
+.nav a:hover {
+  color: var(--primary-color);
+  transform: scale(1.05);
+}
+
+/* Hero */
+.hero-section {
+  text-align: center;
+  padding: 100px 20px;
+  animation: fadeIn 1s ease-out;
+}
+
+.hero-title {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.cta-btn {
+  padding: 10px 20px;
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.cta-btn:hover {
+  background: darkblue;
+}
+
+/* Features */
+.features-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background: var(--card-bg);
+  padding: 20px;
+  width: 30%;
+  text-align: center;
+  border-radius: 8px;
+  transition: var(--transition);
+}
+
+.feature-card:hover {
+  box-shadow: 0 5px 15px var(--hover-shadow);
+  transform: scale(1.05);
+}
+
+/* Pricing */
+.pricing-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.pricing-card {
+  background: var(--card-bg);
+  padding: 30px;
+  width: 30%;
+  text-align: center;
+  border-radius: 8px;
+  transition: var(--transition);
+}
+
+.pricing-card:hover {
+  box-shadow: 0 7px 20px var(--hover-shadow);
+  transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+  background: var(--card-bg);
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .feature-card,
+  .pricing-card {
+    width: 100%;
+  }
+}
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Schedule & Registration</title>
+</head>
+<body>
+
+    <h1>Event Schedule</h1>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Activity</th>
+                <th>Venue</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>09:00 AM</td>
+                <td>Opening Ceremony</td>
+                <td>Main Hall</td>
+            </tr>
+            <tr>
+                <td>10:00 AM</td>
+                <td>Keynote Speech</td>
+                <td>Conference Room A</td>
+            </tr>
+            <tr>
+                <td>11:00 AM</td>
+                <td>Workshop Sessions</td>
+                <td>Breakout Rooms</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Registration Form</h2>
+
+    <form method="post" action="submit_registration.html">
+        <div>
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+        </div>
+
+        <div>
+            <label for="regDate">Registration Date:</label>
+            <input type="date" id="regDate" name="regDate">
+        </div>
+
+        <fieldset>
+            <legend>Ticket Type:</legend>
+            <div>
+                <input type="radio" id="standard" name="ticketType" value="Standard" required>
+                <label for="standard">Standard</label>
+            </div>
+            <div>
+                <input type="radio" id="vip" name="ticketType" value="VIP">
+                <label for="vip">VIP</label>
+            </div>
+            <div>
+                <input type="radio" id="student" name="ticketType" value="Student">
+                <label for="student">Student</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Workshop Preferences:</legend>
+            <div>
+                <input type="checkbox" id="workshop1" name="workshops" value="Workshop1">
+                <label for="workshop1">Workshop 1</label>
+            </div>
+            <div>
+                <input type="checkbox" id="workshop2" name="workshops" value="Workshop2">
+                <label for="workshop2">Workshop 2</label>
+            </div>
+            <div>
+                <input type="checkbox" id="workshop3" name="workshops" value="Workshop3">
+                <label for="workshop3">Workshop 3</label>
+            </div>
+        </fieldset>
+
+        <div>
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+        </div>
+
+        <div>
+            <button type="submit">Submit Registration</button>
+        </div>
+    </form>
+
+</body>
+</html>

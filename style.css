@@ -1,0 +1,123 @@
+/* ===== Global Styles ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* ===== Header ===== */
+header {
+    text-align: center;
+    background-color: #1e293b;
+    color: #ffffff;
+    padding: 30px 20px;
+    border-radius: 8px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+/* ===== Navigation ===== */
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1e40af;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Sections ===== */
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+/* ===== Image ===== */
+section img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+/* ===== Headings ===== */
+h2 {
+    color: #1e293b;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #334155;
+    margin-bottom: 8px;
+}
+
+/* ===== Lists ===== */
+ul {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* ===== Projects ===== */
+section section {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #f1f5f9;
+    border-radius: 6px;
+}
+
+/* ===== Video ===== */
+iframe {
+    display: block;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+
+/* ===== Quote ===== */
+blockquote {
+    font-style: italic;
+    text-align: center;
+    color: #475569;
+}
+
+cite {
+    display: block;
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: #64748b;
+}
+
+/* ===== Links ===== */
+a {
+    color: #2563eb;
+}
+
+a:hover {
+    color: #1d4ed8;
+}
