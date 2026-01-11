@@ -10,7 +10,7 @@ void sort012(int arr[], int n)
         {
             if(arr[j]==i)
             {
-            cout<<arr[j]<<" ";
+            cout<<arr[j]<<", ";
             }
         }
     }
